@@ -1,0 +1,75 @@
+:root {
+  --primary: #AB8B65;
+  --secondary: #e36159;
+  --tertiary: #2baab1;
+  --quaternary: #383f48;
+
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header  dan  navbar*/
+header {
+  background-image: url(imgkedaikopi/header-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-width: fit-content;
+  background-position: center;
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    height: 90vh;
+  }
+}
+
+.navbar-container {
+  padding: 0 7%;
+}
+
+.navbar-container a,
+.sidenav h4 {
+  font-weight: 700;
+}
+
+.navbar-container span {
+  color: var(--primary);
+}
+
+.right a:hover {
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+}
+
+/* collection */
+.responsive-img {
+  width: 25rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text h3 {
+  line-height: 3rem;
+}
+
+.section {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
